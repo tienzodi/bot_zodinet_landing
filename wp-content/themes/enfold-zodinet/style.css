@@ -1,0 +1,109 @@
+/*
+    Theme Name:   Enfold - Zodinet
+    Template:     enfold
+*/
+
+/* fix bug Enfold template */
+.pagination .pagination-meta{display: block;text-align: right;float:none;} 
+#comments span.required{display: inline;}
+.comment_text i,.comment_text cite,.comment_text em{font-style: italic;}
+.responsive #scroll-top-link{display: block;}
+#commentform label{left:0;position: relative;padding-bottom:5px;}
+#wrap_all{position:relative;}
+
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+#av_section_1 {
+	position: relative;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #1caff6;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.banner-image img{
+	width: 432px;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles {
+	background: #000022;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 80px;
+	color: #13E8E9;
+	font-size: .8em;
+	text-align: left;
+	text-indent: 4px;
+	line-height: 14px;
+	padding-bottom: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.js-count-particles {
+	font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+	-webkit-user-select: none;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#stats {
+	border-radius: 3px 3px 0 0;
+	overflow: hidden;
+}
+
+.count-particles {
+	border-radius: 0 0 3px 3px;
+}
+
+
+/* large screens with 1140px with */
+@media only screen and (min-width: 1140px)  {
+
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 989px) {
+
+}
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 989px) {
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+	}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+
+}
