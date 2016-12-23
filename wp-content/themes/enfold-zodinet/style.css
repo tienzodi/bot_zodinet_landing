@@ -35,6 +35,33 @@ canvas {
 	width: 432px;
 }
 
+.subscribe-box {
+	text-align: center;
+}
+
+.subscribe-box form label {
+	font-size: 15px !important;
+	color: #fff !important;
+	margin-bottom: 5px !important;
+	display: block !important;
+}
+
+.subscribe-box form input[type="email"] {
+	width: 250px !important;
+	height: 40px !important;
+	padding-top: 6px !important;
+	display: inline !important;
+	border: 1px solid #f6f6f6 !important;
+	border-radius: 2px !important;
+	margin-bottom: 0 !important;
+}
+
+.subscribe-box form input[type="submit"] {
+	border-radius: 2px !important;
+	height: 40px !important;
+}
+
+
 
 /* ---- stats.js ---- */
 
