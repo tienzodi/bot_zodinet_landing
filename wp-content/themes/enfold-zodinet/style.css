@@ -61,6 +61,10 @@ canvas {
 	height: 40px !important;
 }
 
+.main-image {
+	margin-top: -400px;
+}
+
 
 
 /* ---- stats.js ---- */
