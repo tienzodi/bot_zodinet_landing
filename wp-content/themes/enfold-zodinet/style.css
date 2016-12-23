@@ -62,7 +62,7 @@ canvas {
 }
 
 .main-image {
-	margin-top: -400px;
+	margin-top: -400px !important;
 }
 
 
